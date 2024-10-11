@@ -1,0 +1,38 @@
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+
+    --shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.content-homeadm {
+
+    flex-direction: column;
+
+    .centro {
+
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+
+        .option {
+            background-color: var(--color2);
+            padding: 16px;
+            color: var(--color3);
+            border-radius: 3px;
+            width: 80%;
+            cursor: pointer;
+        }
+
+        .option:hover {
+            background-color: #3f3e3e;
+        }
+
+    }
+
+}

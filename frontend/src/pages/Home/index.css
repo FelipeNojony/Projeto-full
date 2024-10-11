@@ -1,0 +1,126 @@
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+
+    --shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+    --bcHome: url('src/assets/img/fundo-home.png');
+}
+
+
+.imagem-home {
+    background-image: var(--bcHome);
+
+    .mb {
+        display: flex;
+
+        .div-um-home {
+
+            .slogan {
+
+                position: absolute;
+                top: 400px;
+                width: 800px;
+
+                color: var(--color3);
+                font-weight: 400;
+                font-size: 40px;
+            }
+        }
+
+        .div-dois-home {
+
+            img {
+                width: 600px;
+                position: absolute;
+                right: 120px;
+                top: 480px;
+            }
+
+        }
+
+    }
+}
+
+#section-home {
+
+    flex-direction: column;
+
+    h3 {
+        margin: 150px auto 30px auto;
+        font-weight: 400;
+        font-size: 30px;
+        color: var(--color2);
+    }
+
+    .btn-vinhos {
+    
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+
+        margin-bottom: 30px;
+
+        #btn-usado {
+            cursor: pointer;
+            border: none;
+            padding: 5px 50px;
+            color:var(--color3);
+            background-color: var(--color1);
+            box-shadow: var(--shadow);
+        }
+
+        #btn-nao-usado {
+            cursor: pointer;
+            border: solid 1px var(--color1);
+            padding: 5px 50px;
+            color: var(--color1);
+            background-color: var(--color3);
+            box-shadow: var(--shadow);
+        }
+    }
+
+}
+
+@media ( max-width: 480px ) {
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .primeiro-paragrafo {
+        width: 350px;
+        font-size: 12px;
+    }
+
+    .segundo-paragrafo {
+        width: 350px;
+        font-size: 12px;
+    }
+
+    .bc-imagem{
+        display: none;
+    }
+
+    #section-home {
+        margin-top: -150px;
+
+        h3 {
+            font-size: 14px;
+        }
+
+        .btn-vinhos {
+
+            button {
+                display: flex;
+                width: 25px;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+
+    }
+
+}

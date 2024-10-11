@@ -1,0 +1,72 @@
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+
+    --shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+    --bcCompany: url('src/assets/img/logo-full.jpg');
+}
+
+.spn-company {
+    color: var(--color2);
+}
+
+.imagem-company {
+    justify-content: center;
+   
+    img {
+        width: 900px;
+        border-radius: 2px;
+    }
+}
+
+.cpn {
+    flex-direction: column;
+
+    .mg-cpn {
+
+        margin: 30px 0;
+
+        .cpn-att {
+
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+    
+            h3 {
+                color: var(--color1);
+                font-weight: 400;
+                font-size: 30px;
+            }
+
+            span {
+                color: var(--color4);
+                font-size: 16px;
+                font-weight: 500;
+            }
+    
+            p {
+                text-align: justify;
+                color: var(--color2);
+            }
+        }
+
+    }
+
+}
+
+@media ( max-width: 480px ) {
+
+    .imagem-company {
+        justify-content: center;
+       
+        img {
+            width: 300px;
+            border-radius: 2px;
+        }
+    }
+
+}
