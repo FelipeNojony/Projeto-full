@@ -1,6 +1,8 @@
 import { useState } from "react"
 import Cadastro from "../Cadastro/Cadastro"
 
+import { Link } from 'react-router-dom';
+
 
 export default function Content(dadosLogin) {
     const [openCadastro, setOpenCadastro] = useState(false)
@@ -22,7 +24,7 @@ export default function Content(dadosLogin) {
 
                 <div className='box-senha'>
                     <label htmlFor="senha">Senha</label>
-                    <input type="text" name="senha-cliente" id="senha-cliente" placeholder='Digite sua senha aqui'></input>
+                    <input type="password" name="senha-cliente" id="senha-cliente" placeholder='Digite sua senha aqui'></input>
                 </div>
             </div>
 
@@ -32,7 +34,7 @@ export default function Content(dadosLogin) {
             </div>
 
             <div className='acessar'>
-                <button type="button" id='acessar'>Acessar</button>
+                <button type="button" id='acessar'><Link className="acess" to={"/home"}>Acessar</Link></button>
             </div>
 
             <div className='box-cadastro'>

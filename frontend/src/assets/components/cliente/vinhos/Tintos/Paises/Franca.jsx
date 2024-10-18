@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import ApiProdutos from "../../../../../../api/ApiProdutos";
 import ConteudoCard from "../../../Card/ConteudoCard";
 
-
 export default function Franca() {
     const [produtos, setProdutos] = useState([]);
 
@@ -25,12 +24,10 @@ export default function Franca() {
             <div className="cards">
 
                 
-                {produtos.map((product) => 
-                    <ConteudoCard key={product.id} data={product} />
-                )}
-
-                
-
+                    {produtos.map((product) => 
+                        <ConteudoCard key={product.id} data={product} />
+                    )}
+              
             </div>
 
         </>

@@ -12,7 +12,7 @@ export default function Tintos() {
             <section className="container tintos">
 
                 <div className="cards-section">
-                    
+
                     <Franca />
 
                     <Italia />    
@@ -20,6 +20,8 @@ export default function Tintos() {
                     <Espanha />
 
                     <Portugal />
+
+                    
                 </div>
 
             </section>

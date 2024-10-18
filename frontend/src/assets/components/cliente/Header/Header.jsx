@@ -30,7 +30,7 @@ export default function Header() {
                     <li>
                         <button type="button" className="btn-pedidos"
                         onClick={() => setPedidosVisivel(!pedidosVisivel) }>
-                            <i className='bx bx-notepad'></i>
+                            <i title="Pedidos" className='bx bx-notepad'></i>
                             {produtos.length > 0 && <span className="status-pedidos">{produtos.length}</span>}
                         </button>
                     </li>
@@ -45,7 +45,8 @@ export default function Header() {
 
                     <li>
                         <button type="button" className="btn-user">
-                        <i className='bx bx-user'></i>
+                        <Link className="acess1" to={"/identificacao"}><i title="Minha conta" className='bx bx-user'></i></Link>
+                        
                         </button>
                     </li>
 
