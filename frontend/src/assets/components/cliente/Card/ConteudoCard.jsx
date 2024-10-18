@@ -8,10 +8,6 @@ import propTypes from 'prop-types';
 import AppContext from '../../../../context/Appcontext';
 
 
-
-
-
-
 export default function ConteudoCard({ data }) {
     const { name, image, price } = data;
 
@@ -31,36 +27,27 @@ export default function ConteudoCard({ data }) {
 
     return (
         <>
+
+        
+
             <div className="card">
-
                 <img src={image} alt="" />
-
-
-
                 <p className="name">{name} </p>
-
                 <div>
-
                     <p className="value" >{price.toLocaleString('pt-br', {
                         style: 'currency',
                         currency: 'BRL',
                     })} </p>
-
                     <button type="button"
                         className="btn-comprar"
                         onClick={adicionarNoCarrinho}>Comprar</button>
-
                 </div>
-
-
-
                 <button type='button' className='btn-landing' onClick={infoLAnding}>
                     <i title="Informações" className='bx bx-info-circle'></i>
                 </button>
-
-
-
             </div>
+
+            
 
 
             {produtos.map((itemlanding) => (
