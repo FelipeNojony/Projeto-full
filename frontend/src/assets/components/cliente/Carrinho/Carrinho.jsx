@@ -20,6 +20,7 @@ export default function Carrinho() {
                  {produtos.map((itemCarrinho) => (
                   <ItemCarrinho key={itemCarrinho.id} data={itemCarrinho}/>
                   ))}
+                  
                 
             </div>
 
