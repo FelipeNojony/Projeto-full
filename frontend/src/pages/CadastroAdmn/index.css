@@ -1,0 +1,214 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+    --color7: #575757;
+    --color8: #ff0000;
+    --color9: #bdbdbd;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+
+#container-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+
+
+    .content-formulario {
+        background-color: var(--color3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        width: 450px;
+        height: 400px;
+        box-shadow: none;        
+    }
+
+    input {
+        background-color: var(--color3);
+        width: 400px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid var(--color9);
+        padding: 5px;
+        outline: none;
+        
+    }
+    
+
+    h3 {
+        display: flex;
+        color: var(--color7);
+        width: 400px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 29px;
+        justify-content: space-between;
+        align-items: center;
+        border-collapse: collapse;
+        border-bottom: 1px solid var(--color9);
+        text-transform: uppercase;
+
+        >i {
+            font-size: 15px;
+        }
+    }
+
+    span{
+        color: var(--color8);
+        font-size: 8px;
+        width: 400px;
+        position: absolute;
+    }
+
+
+
+
+
+    .dados-pessoais {
+        display: flex;
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin-top: 5px;
+
+    }
+
+    .contato {
+        display: flex;
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin-top: 10px;
+
+        
+    }
+
+    .endereco {
+        display: flex;
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        margin-top: 10px;
+
+
+        #logradouro {
+            background-color: var(--color9);
+            width: 400px;
+            height: 25px;
+            border-radius: 4px;
+            border: 1px solid var(--color9);
+            padding: 5px;
+        }
+
+        .num {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            #numero {
+                background-color: var(--color3);
+                width: 77px;
+                height: 25px;
+                border-radius: 4px;
+                border: 1px solid var(--color9);
+                padding: 5px;
+            }
+
+            #complemento {
+                background-color: var(--color3);
+                width: 313px;
+                height: 25px;
+                border-radius: 4px;
+                border: 1px solid var(--color9);
+                padding: 5px;
+            }
+        }
+
+        #bairro {
+            background-color: var(--color9);
+            width: 400px;
+            height: 25px;
+            border-radius: 4px;
+            border: 1px solid var(--color9);
+            padding: 5px;
+        }
+
+        .city {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            #cidade{
+                background-color: var(--color9);
+                    width: 126.5px;
+                    height: 25px;
+                    border-radius: 4px;
+                    border: 1px solid var(--color9);
+                    padding: 5px;
+            }
+
+            #estado {
+                background-color: var(--color9);
+                width: 126.5px;
+                height: 25px;
+                border-radius: 4px;
+                border: 1px solid var(--color9);
+                padding: 5px;
+            }
+
+            #pais {
+                background-color: var(--color9);
+                width: 126.5px;
+                height: 25px;
+                border-radius: 4px;
+                border: 1px solid var(--color9);
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.container-campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #salvar-alteracoes-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color3);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 400px;
+        height: 35px;
+        left: 50px;
+        border-radius: 4px;
+        border: 0;
+        padding: 15px;
+        margin-top: 12px;
+        gap: 24px;
+        background-color: var(--color1);
+
+        &:hover {
+            background-color: var(--color4);
+        }
+    }
+}

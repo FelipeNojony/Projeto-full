@@ -1,0 +1,326 @@
+
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+    --color10: #901776;
+}
+
+.fundo-landing{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.container-landing {
+    display: flex;
+    background-color: var(--color2);
+    width: 640px;
+    height: 610px;
+    border-radius: 6px;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    #btn-voltar {
+        position: fixed;
+        margin-top: 40px;
+        top: 30px;
+        right: 350px;
+    
+        width: 30px;
+    
+        button {
+            background-color: var(--color1);
+            color: var(--color3);
+    
+            border-radius: 5px;
+            border: none;
+            padding: 5px 30px;
+    
+            font-weight: 400;
+        }
+    }
+
+    .content-about {
+        
+        display: flex;
+        
+
+        img{
+            width: 100px;
+            height: 300px;
+        }
+
+        .about-vinho {
+
+            align-items: center;
+
+
+
+            .history {
+                width: 417px;
+                height: 131px;
+                margin-left: 38px;
+
+                .titulo {
+                    font-weight: 400;
+                    font-size: 20px;
+                
+                    color: var(--color10);
+                    text-align: justify;
+                }
+
+                
+            }
+
+            .descricao{
+
+                margin-top: 20px;
+
+                .titulo {
+                    height: 62px;
+                    font-weight: 400;
+                    font-size: 14px;
+                
+                    color: var(--color10);
+                    text-align: justify;
+                }
+
+                .texto {
+                    color: var(--color3);
+                    height: 70px;
+                    font-weight: 400;
+                    font-size: 7px;
+                    line-height: 10px;
+                    text-align: justify;
+                    margin-top: -35px;
+                }
+            }
+
+            .vinificacao {
+                margin-left: 38px; 
+                margin-top: 15px;
+                margin-bottom: 10px;
+                width: 417px;
+                height: 66px;
+
+                .titulo {
+                    height: 21px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: var(--color10);
+                    
+
+                }
+
+                .texto {
+                    margin-top: 10px;
+                    color: var(--color3);
+                    height: 45px;
+                    font-weight: 400;
+                    font-size: 7px;
+                    line-height: 10px;
+                    text-align: justify;
+                }
+
+            }
+
+            .about {
+                margin-left: 38px;
+                margin-top: 30px;
+                width: 417px;
+                height: 85px;
+
+                .titulo {
+                    margin-top: -5px;
+                    height: 21px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: var(--color10);
+                    text-align: start;
+
+                }
+
+                .texto {
+                    margin-top: 10px;
+                    color: var(--color3);
+                    height: 45px;
+                    font-weight: 400;
+                    font-size: 7px;
+                    line-height: 10px;
+                    text-align: justify;
+                }
+            }
+        }
+
+
+    }
+
+    .content-caracteristicas {
+        display: flex;
+        flex-wrap: wrap;
+        width: 563px;
+        height: 42px;
+        margin-top: 55px;
+        margin-left: 25px;
+
+
+        .linha1 {
+            display: flex;
+            flex-wrap: wrap;
+
+            .titulo {
+                height: 18px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: var(--color10);
+                text-align: start;
+
+            }
+
+            .texto {
+                color: var(--color3);
+                height: 14px;
+                font-weight: 400;
+                font-size: 9px;
+                line-height: 14px;
+                text-align: justify;
+            }
+
+            .criticos {
+                width: 76px;
+                height: 32px;
+            }
+
+
+            .tamanho-garrafa {
+                width: 133px;
+                height: 32px;
+                margin-left: 18px;
+            }
+
+            .regiao {
+                width: 46px;
+                height: 32px;
+                margin-left: 18px;
+            }
+
+            .produtor {
+                width: 87px;
+                height: 32px;
+                margin-left: 18px;
+            }
+
+            .teor-alcoolico {
+                width: 87px;
+                height: 32px;
+                margin-left: 18px;
+            }
+        }
+    }
+
+    .content-caracteristicas2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 563px;
+        height: 74px;
+        margin-left: 25px;
+        margin-top: 10px;
+
+
+        .linha2 {
+            display: flex;
+            flex-wrap: wrap;
+
+            .titulo {
+                height: 18px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: var(--color10);
+                text-align: start;
+
+            }
+
+            .texto {
+                color: var(--color3);
+                height: 14px;
+                font-weight: 400;
+                font-size: 9px;
+                line-height: 14px;
+                text-align: justify;
+            }
+
+            .pais {
+                width: 76px;
+                height: 32px;
+            }
+
+
+            .harmonizacao {
+                width: 133px;
+                height: 32px;
+                margin-left: 18px;
+
+                >.texto {
+                    display: flex;
+                    color: var(--color3);
+                    height: 14px;
+                    font-weight: 400;
+                    font-size: 9px;
+                    line-height: 14px;
+                    text-align: justify;
+                    flex-direction: column;
+                }
+
+
+            }
+
+            .tipo {
+                width: 46px;
+                height: 32px;
+                margin-left: 18px;
+            }
+
+            .uvas {
+                width: 87px;
+                max-width: 87px;
+                height: 74px;
+                margin-left: 18px;
+            }
+
+            .temperatura-servico {
+                width: 149px;
+                height: 32px;
+                margin-left: 18px;
+            }
+        }
+    }
+
+    .comprar {
+        background-color: #901776;
+        color: #FAF9F6;
+        width: 566px;
+        height: 36px;
+        border: 0;
+        border-radius: 2px;
+
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 16px;
+        
+        &:hover{
+            background-color: #641052;
+        }
+        
+    }
+}

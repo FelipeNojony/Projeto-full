@@ -1,0 +1,92 @@
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+    --color6: #ddd;
+
+
+    --shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.container-identificacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 90vh;
+}
+
+.content-identificacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    background-color: var(--color3);
+    border: 5px solid var(--color1);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+
+    h1 {
+        color: var(--color1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 356px;
+        height: 65px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 115px;
+    }
+
+    span {
+        color: var(--color2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        width: 156px;
+        height: 24px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 43px;
+    }
+
+    .cliente {
+        background-color: var(--color1);
+        color: var(--color3);
+        text-align: justify;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        font-size: 10px;
+        width: 276px;
+        height: 33px;
+        border: 0;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: var(--color4);
+        }
+    }
+
+    .administrador {
+        background-color: var(--color3);
+        color: var(--color1);
+        text-align: justify;
+        padding-left: 15px;
+        font-size: 10px;
+        width: 276px;
+        height: 33px;
+        border: 3px solid;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: var(--color6);
+        }
+    }
+
+}

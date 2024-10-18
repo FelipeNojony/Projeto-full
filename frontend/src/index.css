@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, poppins;
+}
+
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+    
+    margin: 100px auto 0px;
+
+    color: var(--color4);
+    font-weight: 400;
+}
+
+.primeiro-paragrafo {
+    text-align: center;
+    color: var(--color2);
+
+    width: 570px;
+
+    margin: 30px auto;
+}
+
+.segundo-paragrafo {
+    text-align: center;
+    color: var(--color4);
+
+    width: 570px;
+
+    margin: 30px auto;
+}
+
+.bc-imagem {
+    height: 410px;
+    background-repeat: repeat;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}

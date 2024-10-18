@@ -1,0 +1,123 @@
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+    --color12: #cccccc;
+    --color9: #bdbdbd;
+    --color13: #eeeeee;
+
+}
+
+.container-add{
+    color: var(--color3);
+    width: 100%;
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    .titulo-add{
+        color: var(--color4);
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 62px;   
+    }
+
+    .content-add{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+
+        .add-img{
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: solid 1px var(--color9);
+            border-radius: 3px;
+            width: 150px;
+            height: 150px;
+            gap: 10px;
+
+            &:hover{
+                background-color: var(--color13);
+            }
+
+
+            >i{
+                color: var(--color4);
+                font-size: 60px;
+                
+            }
+
+            .adicionar-imagem{
+                width: 100px;
+                color: var(--color4);
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 20px;
+
+            }
+        }
+
+        .form-add{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 400px;
+            gap: 15px;
+            
+
+
+            .linha{
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 15px;
+                border-bottom: solid 1px var(--color4);
+                border-collapse: collapse;                
+                
+            }
+
+            input{
+                background-color: var(--color13);
+                width: 350px;
+                height: 20px;
+                border: 1px solid var(--color9);
+                border-radius: 3px;
+                padding: 5px;
+                outline: none;
+
+            }
+
+    
+        }
+
+        
+        .salvar-info{
+            background-color: var(--color4);
+            color: var(--color3);
+            width: 350px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+
+            &:hover{
+                background-color: var(--color1);
+            }
+
+        }
+
+    }
+        
+    
+
+}

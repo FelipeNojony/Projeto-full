@@ -1,0 +1,88 @@
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+    --color5: #0206fe;
+
+
+}
+
+.container-painel {
+    width: 100vw;
+    height: 100vh;
+
+    .titulo-painel{
+        margin-top: 30px;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 62px;
+        text-align: justify;
+    }
+
+    .content-painel{
+        background-color: var(--color2);
+        width: 600px;
+        height: 134px;
+        margin-top: 20px;
+        margin-left: 307px;
+        border-radius: 3px;
+        
+        
+        
+
+        .topo{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 10px;
+            
+            .nome{
+                color: var(--color4);
+            }
+
+            .email{
+                color: var(--color3);
+                
+            }
+            
+            
+        }
+
+        .meio{
+            display: flex;
+            margin: 10px 10px;
+            
+            .contato{
+                color: var(--color4);
+                width: 150px;
+                margin-top: 10px;
+            }
+
+            .endereco{
+                color: var(--color4);
+                width: 100px;
+                margin-top: 10px;
+            }
+        }
+
+        .baixo{
+            display: flex;
+            margin: 10px 10px;
+
+            .telefone{
+                color: var(--color3);
+                width: 120px;
+                margin-top: 10px;
+            }
+
+            .avenida{
+                color: var(--color3);
+                width: 300px;
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+        }
+    }
+    
+}
+    

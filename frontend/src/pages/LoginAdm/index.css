@@ -1,0 +1,127 @@
+:root {
+    --color1: #38092E;
+    --color2: #1A1A1A;
+    --color3: #FAF9F6;
+    --color4: #641052;
+    --color5: #0206fe;
+    
+
+
+    --shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}    
+
+
+.container-logincliente {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content-logincliente {
+        background-color: var(--color2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        height: 350px;
+        border-radius: 10px;
+        
+        
+        
+
+        .titulo-cliente {
+            text-align: center;
+            color: var(--color3);
+            margin-top: 20px;
+            width: 400px;
+            height: 70px;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 70px;
+        }
+
+        .imput-box {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                color: var(--color3);
+                display: flex;
+                flex-direction: column;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 30px;
+                margin-left: 15px;
+            }
+
+            input {
+                width: 300px;
+                height: 30px;
+                border: 0;
+                border-radius: 3px;
+                outline: none;
+                padding: 5px;
+
+            }
+
+        }
+
+        .perdeu-senha {
+            display: flex;
+            width: 350px;
+            margin-top: 5px;
+            margin-left: 50px;
+
+            #perdeu-senha {
+                border: 0;
+                background-color: transparent;
+                color: var(--color5);
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 30px;
+            }
+
+        }
+
+        #acessar {
+            color: var(--color3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color1);
+            width: 300px;
+            height: 30px;
+            border: 0;
+            border-radius: 3px;
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        .box-cadastro{
+            display: flex;
+            margin-top: 5px;
+
+            .sem-conta{
+                color: var(--color3);
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 30px;
+                
+            }
+
+            #cadastre-se{
+                color: var(--color5);
+                border: 0;
+                background-color: transparent;
+                margin-left: 5px;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 30px;
+            }
+        }
+
+    }
+}
