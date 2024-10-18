@@ -22,6 +22,7 @@ export default function Carrinho() {
                   ))}
                   
                 
+                
             </div>
 
             <div className="resumo-carrinho">{valorTotal.toLocaleString('pt-br', {
