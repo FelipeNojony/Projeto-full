@@ -21,8 +21,6 @@ export default function Carrinho() {
                   <ItemCarrinho key={itemCarrinho.id} data={itemCarrinho}/>
                   ))}
                   
-                
-                
             </div>
 
             <div className="resumo-carrinho">{valorTotal.toLocaleString('pt-br', {
